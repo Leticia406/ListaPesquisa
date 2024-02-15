@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,body{
+    font-size: 62,5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1rem;
+    text-shadow: 0.2rem 0.2rem #ffffff;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color:rgb(240, 43, 82);
+}
+
+nav{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+    background-color: rgb(210, 210, 210);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.procurar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+img{
+    height: 20rem;
+
+}
+
+  input{
+    height: 3rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+  }
+
+  button{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+
+.lista1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#produtos{
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 2rem;
+}
+ul{
+    overflow-y:scroll;
+    height: 30rem;
+}
+
+ li{
+    margin: 1rem;
+    background-color: rgb(242, 246, 246);
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+ }
+
+
+
+
+
